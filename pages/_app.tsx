@@ -1,6 +1,8 @@
 import type { AppProps } from 'next/app'
 import { NextPageContext } from 'next'
 
+import '../public/assets/styles/common.sass' // app.tsx: global css location
+
 const App: AppProps = ({ Component, pageProps }) => {
 	return (
 		<Component { ...pageProps } />
